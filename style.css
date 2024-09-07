@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.visiting-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+h2 {
+    color: #333;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.title {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #555;
+    margin: 10px 0;
+}
+
+.contact-info i {
+    color: #3498db;
+    margin-right: 10px;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: #3498db;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #2980b9;
+}
+
+.button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
